@@ -8,4 +8,4 @@ Introduction of myself
 What did i do during the project. With hyperlink to all my thingies
 
 ### Datacamp online course
-During the minor [Datacamp progress](Assignments-DataCampLearn.pdf)
+During the minor 
