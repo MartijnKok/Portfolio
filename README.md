@@ -12,3 +12,15 @@ During the minor [Datacamp](Datacamp/)
 
 ### Data Visualization
 [Data Visualization](Data_Visualization/)
+
+### Data Collection
+[Data Collection](Data_Collection/)
+
+### Data Preparation
+[Data Preparation](Data_Preparation/)
+
+### Predictive Models
+[Predictive Models](Predictive_Models/)
+
+### Evaluation
+[Evaluation](Evaluation/)
