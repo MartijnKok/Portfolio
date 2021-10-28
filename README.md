@@ -8,7 +8,7 @@ Introduction of myself
 What did i do during the project. With hyperlink to all my thingies
 
 ### Datacamp online course
-During the minor [Datacamp](path%20with%20spaces/other_file.md)
+During the minor [Datacamp](Datacamp/)
 
 ### Data Visualization
-[Data Visualization](path%20with%20spaces/other_file.md)
+[Data Visualization](Data Visualization/)
