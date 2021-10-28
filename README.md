@@ -11,4 +11,4 @@ What did i do during the project. With hyperlink to all my thingies
 During the minor [Datacamp](Datacamp/)
 
 ### Data Visualization
-[Data Visualization](Data Visualization/)
+[Data Visualization](Data_Visualization/)
