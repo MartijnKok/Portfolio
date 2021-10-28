@@ -6,3 +6,6 @@ Introduction of myself
 
 ## Contributions
 What did i do during the project. With hyperlink to all my thingies
+
+### Datacamp online course
+During the minor [Datacamp progress](Assignments - DataCamp Learn.pdf)
