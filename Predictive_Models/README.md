@@ -6,3 +6,6 @@
  ## Machine Learning Detection sprints
  Started to work with data of the project. Learned more about GridSearchCV and models like Nearest Neighbor, Decision Tree and  SVM models.
 
+## Neural Network
+
+## Convolutional Neural Network
