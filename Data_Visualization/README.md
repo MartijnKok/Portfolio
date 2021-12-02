@@ -2,7 +2,7 @@
 During the minor i have done a lot of Data visualization to understand the dataset of my project (Wheels). In this section i will explain what i have done with Data Visualization and what i have learned.
 
 ## Detecting patterns in Data
-I was part of the wheels project group in the minor. Before we could start with coding we needed to understand the data. Therefore i have written a visualization code that will visualize all the action different wheelchair basketball players have done, see [Detecting Patterns](Data_Balance.pdf/). This visualization code helped me understand the importance of visualization/understanding your data before you can train a model. Through the visualization the best features for the model can be choosen. 
+I was part of the wheels project group in the minor. Before we could start with coding we needed to understand the data. Therefore i have written a visualization code that will visualize all the action different wheelchair basketball players have done, see [Detecting Patterns](Timestamp_fast_defence.pdf). This visualization code helped me understand the importance of visualization/understanding your data before you can train a model. Through the visualization the best features for the model can be choosen. 
 
 ## Balancing Data 
 When i started with fitting the dataset of the wheels project group to a model i ran into a problem. The model didn't have great results because the dataset wasn't balanced. The balance of the dataset was balanced to see how bad it was see: [Detecting Patterns](Data_Balance.pdf). The dataset was more inbalanced then i thought, with this information i balanced the dataset.
