@@ -22,3 +22,6 @@ In the minor i learned about the importance of Data Visualization. During the pr
 
 ### Evaluation
 [Evaluation](Evaluation/)
+
+### Reflection on Applied Data science minor
+[Reflection](Reflection/)
