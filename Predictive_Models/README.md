@@ -15,3 +15,5 @@ Learned about the use of convolutional layers in a Neural Network.
 ## Recurrent Neural Network
 To improve a Neural Network a recurrent neural network was used by me. This Network will learn from each layer during the predicting fase.
 
+The student has supported their model selection with references from literature!!!!!!!!!!!!
+
