@@ -21,14 +21,6 @@ My process of Datacamp can be seen through this link: [Datacamp progress](Dataca
 
 
 
-## Reflection and evaluation
-
-### Reflection on own contribution on the project 
-### Reflection on own learning objectives.
-### Evaluation on the group project as a whole
-
-
-
 ## Research project
 
 ### Task definition
@@ -85,8 +77,10 @@ My process of Datacamp can be seen through this link: [Datacamp progress](Dataca
 
 ### Writing Paper
 
-### Data Visualization
-In the minor i learned about the importance of Data Visualization. During the project in the minor data visualization was a big part. More informations how i used data visualization can be seen through this link: [Data Visualization](Data_Visualization/)
 
-### Data Collection
-After visualizion the data i found out the data was incompleted and more data needed to be collected before a predictive model could be trained. The indepth informations about data collection can be seen via this link: [Data Collection](Data_Collection/)
+
+## Reflection and evaluation
+
+### Reflection on own contribution on the project 
+### Reflection on own learning objectives.
+### Evaluation on the group project as a whole
