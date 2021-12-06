@@ -36,17 +36,25 @@ My process of Datacamp can be seen through this link: [Datacamp progress](Dataca
 ## Predictive Analytics
 
 ### Selecting a Model
-The wheels team got a large time series dataset of multiple gyroscope datapoints. I researched into models that would accept a time series as a input. After researching different models i came across a 1D-Convolutional Neural Network: https://www.sciencedirect.com/science/article/pii/S2666307421000140. In this research paper they also use a 1D-CNN Model for sensordata (gyroscope data) and this model got the best results from the used models.
+
+#### CNN
+The wheels team got a large time series dataset of multiple gyroscope datapoints. I researched into models that would accept a time series as a input. After researching different models i came across a 1D-Convolutional Neural Network: https://www.sciencedirect.com/science/article/pii/S2666307421000140. In this research paper they also use a 1D-CNN Model for sensordata (gyroscope data) and this model got the best results from the used models. 
+
+#### RNN
 
 ### Configuring a Model
-After desiding that i would use a 1D-CNN model i needed to config a model. This took a long time because there aren't that many 1D-CNN models online. After trail and error i made two different CNN models see link: [CNN1](Datacamp/Assignments-DataCampLearn.pdf), [CNN2](Datacamp/Assignments-DataCampLearn.pdf). The first model was configured to get a input of a big tensor with multiple features, this was done because the model will be able to detect patterns over the whole dataset and not just one specific moment. The second model was configured to receive tensors that were split into windows of 1 second, this was done so the results of could be compared to models used by other team members. 
+#### CNN
+After desiding that i would use a 1D-CNN model i needed to config a model. This took a long time because there aren't that many 1D-CNN models online. After trail and error i made two different CNN models see link: [CNN1](Datacamp/Assignments-DataCampLearn.pdf), [CNN2](Datacamp/Assignments-DataCampLearn.pdf). These models are based on the same main model. This model consist of a multiple convolutions and linears layers. The difference between the models are that the first model was configured to get a input of a big tensor with multiple features, this was done because the model will be able to detect patterns over the whole dataset and not just one specific moment. The second model was configured to receive tensors that were split into windows of 1 second with a overlap of 0.5 seconds, this was done so the results of could easily be compared to models used by other team members. 
+
+#### RNN
 
 ### Training a Model
+After the two models were made i trained them with the main dataset of the project. I splitted the dataset into two parts, the train part and test part. The train part was 75% of the data en the test part was 25%. The first time i trained the model had set the epochs on 3000, ofcourse this overfitted the model. To ensure there was no overfitting i visualized the accuracy, loss, recall and precision over the amount of epochs, see: [CNN1](Datacamp/Assignments-DataCampLearn.pdf). After looking at the visualizations i saw the model was overfitting and the learning rate of the model was to high. After playing with the learning rate, epochs and size of the convolutional/linear layers, i achieved the best results possible for the model.
 
 ### Evaluation a Model
+After training the model the results needed to be evaluated. This was easilier said then done, because the dataset that was provided by our problem owner wasn't completed. This meant the the results of the models couldn't be evaluated on the normal way. To evaluate the models i started with looking at the false positives of the models, this was done to check if the false positives are really wrong or if the dataset was wrong. This was done with visualization code that i wrote: [CNN1](Datacamp/Assignments-DataCampLearn.pdf)
 
 ### Visualizing the outcome of the Model
-
 
 
 ## Domain knowledge
