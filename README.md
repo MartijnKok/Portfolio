@@ -36,8 +36,10 @@ My process of Datacamp can be seen through this link: [Datacamp progress](Dataca
 ## Predictive Analytics
 
 ### Selecting a Model
+The wheels team got a large time series dataset of multiple gyroscope datapoints. I researched into models that would accept a time series as a input. After researching different models i came across a 1D-Convolutional Neural Network: https://www.sciencedirect.com/science/article/pii/S2666307421000140. In this research paper they also use a 1D-CNN Model for sensordata (gyroscope data) and this model got the best results from the used models.
 
 ### Configuring a Model
+After desiding that i would use a 1D-CNN model i needed to config a model. This took a long time because there aren't that many 1D-CNN models online. After trail and error i made two different CNN models see link: [CNN1](Datacamp/Assignments-DataCampLearn.pdf), [CNN2](Datacamp/Assignments-DataCampLearn.pdf). The first model was configured to get a input of a big tensor with multiple features, this was done because the model will be able to detect patterns over the whole dataset and not just one specific moment. The second model was configured to receive tensors that were split into windows of 1 second, this was done so the results of could be compared to models used by other team members. 
 
 ### Training a Model
 
