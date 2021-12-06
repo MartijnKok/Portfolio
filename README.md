@@ -44,7 +44,7 @@ The wheels team got a large time series dataset of multiple gyroscope datapoints
 
 ### Configuring a Model
 #### CNN
-After deciding that i would use a 1D-CNN model i needed to configure a model. This took a long time because there aren't that many 1D-CNN models online. After trail and error i made a CNN model see link: [CNN1](Predictive_Models/1D-CNN-1sec-Dataloader.pdf). This model consist of a multiple convolutions and linears layers. The CNN mode is configured to receive tensors that were split into windows of 1 second with a overlap of 0.5 seconds, this was done so the results of could easily be compared to models used by other team members. For every 1 second window the model will decide if there is a sprint or not.
+After deciding that i would use a 1D-CNN model i needed to configure a model. This took a long time because there aren't that many 1D-CNN models online. After trail and error i made a CNN model see link: [CNN](Predictive_Models/1D-CNN-1sec-Dataloader.pdf). This model consist of a multiple convolution and linear layers. The CNN mode is configured to receive tensors that were split into windows of 1 second with a overlap of 0.5 seconds, this was done so the results of could easily be compared to models used by other team members. For every 1 second window the model will decide if there is a sprint or not.
 
 #### RNN
 
@@ -57,10 +57,20 @@ After the two models were made i trained them with the main dataset of the proje
 After training the model the results needed to be evaluated. This was easilier said then done, because the dataset that was provided by our problem owner wasn't completed. This meant the the results of the models couldn't be evaluated on the normal way. To evaluate the models i started with looking at the false positives of the models, this was done to check if the false positives are really wrong or if the dataset was wrong. This was done with visualization code that i wrote: [False Positives Visualization](Data_Visualization/Check_False_Negatives.pdf). This code helped me and Daan to check the first false positives of the sprint code. After checking these false positives we found almost 50% of the false positives were actually true positives. After adding these true positives to the dataset i started to evaluate the CNN and RNN models, while other team members continued with checking the false positives. 
 
 For the evaluation of the models the Recall was most important because this was data i knew about it was correct. For both models i made confusion matrixes of the results of the test set. I used these confusion matrixes to compare the two neural network. In the table below are the Recall/Precision and Accuracy score for the detecting of a sprint.
+
+All Data
 | Models | Recall  | Precision  | Accuracy |
 | :---:   | :-: | :-: | :-: |
 | CNN | 0.89 | 0.71| 0.75 |
-| RNN | 0.92 | 0.82| 0.85 |
+| RNN | 0.92 | 0.81| 0.84 |
+
+Just True Positives and False Positives
+| Models | Recall  | Precision  | Accuracy |
+| :---:   | :-: | :-: | :-: |
+| CNN | 0.93 | 0.43| 0.59 |
+| RNN | 0.94 | 0.63| 0.75 |
+
+From the tables above you can see the RNN model got the best results in both 'All Data' and 'Just True Positives and False Positives'. This is why i choose the RNN as my final model.
 
 ### Visualizing the outcome of the Model
 
