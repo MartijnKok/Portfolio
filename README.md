@@ -44,7 +44,7 @@ The wheels team got a large time series dataset of multiple gyroscope datapoints
 
 ### Configuring a Model
 #### CNN
-After deciding that i would use a 1D-CNN model i needed to configure a model. This took a long time because there aren't that many 1D-CNN models online. After trail and error i made a CNN model see link: [CNN1](Datacamp/Assignments-DataCampLearn.pdf). This model consist of a multiple convolutions and linears layers. The CNN mode is configured to receive tensors that were split into windows of 1 second with a overlap of 0.5 seconds, this was done so the results of could easily be compared to models used by other team members. For every 1 second window the model will decide if there is a sprint or not.
+After deciding that i would use a 1D-CNN model i needed to configure a model. This took a long time because there aren't that many 1D-CNN models online. After trail and error i made a CNN model see link: [CNN1](Predictive_Models/1D-CNN-1sec-Dataloader.pdf). This model consist of a multiple convolutions and linears layers. The CNN mode is configured to receive tensors that were split into windows of 1 second with a overlap of 0.5 seconds, this was done so the results of could easily be compared to models used by other team members. For every 1 second window the model will decide if there is a sprint or not.
 
 #### RNN
 
