@@ -48,7 +48,7 @@ When i researched for models that can be used on IMU (gyroscope data) i found a 
 After deciding that i would use a 1D-CNN model i needed to configure a model. This took a long time because there aren't that many 1D-CNN models online. After trail and error i made a CNN model see link: [CNN](Predictive_Models/1D-CNN-1sec-Dataloader.pdf). This model consist of a multiple convolution and linear layers. The CNN mode is configured to receive tensors that were split into windows of 1 second with a overlap of 0.5 seconds, this was done so the results of could easily be compared to models used by other team members. For every 1 second window the model will decide if there is a sprint or not.
 
 #### RNN
-The RNN model is a basic RNN model with a hidden layer and a LSTM classifier. This model has the same input as the CNN model so most parts of the CNN code can be used for the RNN, link: [RNN](Predictive_Models/ 
+The RNN model is a basic RNN model with a hidden layer and a LSTM classifier. This model has the same input as the CNN model so most parts of the CNN code can be used for the RNN, link: [RNN](Predictive_Models/RNN_Overlap_Dataloader.pdf). 
 
 
 ### Training a Model
@@ -74,7 +74,7 @@ Just True Positives and False Positives
 From the tables above you can see the RNN model got the best results in both 'All Data' and 'Just True Positives and False Positives'. This is why i choose the RNN as my final model.
 
 ### Visualizing the outcome of the Model
-
+The results of both models is visualized in the code by plotting the Accuracy and Loss of both the train and test set. Also for both models the Recall and Precision for the test set is plotted, see [CNN](Datacamp/Assignments-DataCampLearn.pdf) and [RNN](Datacamp/Assignments-DataCampLearn.pdf). To visualize the results more for both models the confusion matrix was plotted. This showed clearly how the models were preforming. 
 
 ## Domain knowledge
 
