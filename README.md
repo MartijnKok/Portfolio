@@ -11,8 +11,7 @@ During the first block of the minor i improved my python coding skill with a onl
 In the minor i learned about the importance of Data Visualization. During the project in the minor data visualization was a big part. More informations how i used data visualization can be seen through this link: [Data Visualization](Data_Visualization/)
 
 ### Data Collection
-
-[Data Collection](Data_Collection/)
+After visualizion the data i found out the data was incompleted and more data needed to be collected before a predictive model could be trained. The indepth informations about data collection can be seen via this link: [Data Collection](Data_Collection/)
 
 ### Data Preparation
 [Data Preparation](Data_Preparation/)
