@@ -1,6 +1,9 @@
 Name: Martijn Kok
+
 Studentnumber: 18094627
+
 Teachers: J. Vuurens &  R. Vermeij & T. Andrioli
+
 Project: Wheels
 
 # Portfolio
