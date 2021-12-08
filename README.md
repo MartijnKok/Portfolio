@@ -103,6 +103,10 @@ The results of both models is visualized in the code by plotting the Accuracy an
 
 ### Presentations
 
+#### Internal/External 
+
+#### Learning Lab
+
 ### Writing Paper
 
 
