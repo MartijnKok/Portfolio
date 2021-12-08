@@ -63,13 +63,13 @@ All Data
 | Models | Recall  | Precision  | Accuracy |
 | :---:   | :-: | :-: | :-: |
 | CNN | 0.90 | 0.70| 0.73 |
-| RNN | 0.92 | 0.81| 0.84 |
+| RNN | 0.92 | 0.81| 0.85 |
 
 Just True Positives and False Positives
 | Models | Recall  | Precision  | Accuracy |
 | :---:   | :-: | :-: | :-: |
 | CNN | 0.98 | 0.40| 0.57 |
-| RNN | 0.94 | 0.63| 0.75 |
+| RNN | 0.93 | 0.64| 0.76 |
 
 From the tables above you can see the RNN model got the best results in 'All Data' for all the testing parameters. For the table with 'Just True Positives and False Positives' the CNN scored a better Recall but way worse accuracy and precision, from this informaton i choose to go futher with the RNN model.
 ### Visualizing the outcome of the Model
