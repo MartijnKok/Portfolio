@@ -104,9 +104,10 @@ The results of both models is visualized in the code by plotting the Accuracy an
 ### Presentations
 
 #### Internal/External 
+During the minor i have given multiple internal/external presentations. These presentations showed the progress of my project group during the minor. Also giving the presentations gave me a opportunity to improve my presentations skills and ask question to the class. The links to the presentations are: 
 
 #### Learning Lab
-
+I gave a learning lab during the minor about data preparation for Sensors data, see: . This Learning lab was focust on teaching the class the importance of data preparation. During the Learning lab i also gave the class a challenge to win a beer, sadly only one person submitted a jupyter notebook. The challengs was to improve the results of a dataset with just data preparation see: 
 ### Writing Paper
 
 
