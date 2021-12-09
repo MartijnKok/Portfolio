@@ -59,13 +59,13 @@ After training the model the results needed to be evaluated. This was easilier s
 
 For the evaluation of the models the Recall was most important because this was data i knew about it was correct. For both models i made confusion matrixes of the results of the test set. I used these confusion matrixes to compare the two neural network. In the table below are the Recall/Precision and Accuracy score for the dectection of a sprint.
 
-All Data
+*All Data*
 | Models | Recall  | Precision  | Accuracy |
 | :---:   | :-: | :-: | :-: |
 | CNN | 0.87 | 0.79| 0.81 |
 | RNN | 0.88 | 0.81| 0.83 |
 
-Just True Positives and False Positives
+*Just True Positives and False Positives*
 | Models | Recall  | Precision  | Accuracy |
 | :---:   | :-: | :-: | :-: |
 | CNN | 0.94 | 0.61| 0.74 |
