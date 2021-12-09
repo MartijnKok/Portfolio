@@ -62,16 +62,17 @@ For the evaluation of the models the Recall was most important because this was 
 All Data
 | Models | Recall  | Precision  | Accuracy |
 | :---:   | :-: | :-: | :-: |
-| CNN | 0.90 | 0.70| 0.73 |
-| RNN | 0.92 | 0.81| 0.85 |
+| CNN | 0.87 | 0.79| 0.81 |
+| RNN | 0.88 | 0.81| 0.83 |
 
 Just True Positives and False Positives
 | Models | Recall  | Precision  | Accuracy |
 | :---:   | :-: | :-: | :-: |
-| CNN | 0.98 | 0.40| 0.57 |
-| RNN | 0.93 | 0.64| 0.76 |
+| CNN | 0.94 | 0.61| 0.74 |
+| RNN | 0.92 | 0.65| 0.76 |
 
-From the tables above you can see the RNN model got the best results in 'All Data' for all the testing parameters. For the table with 'Just True Positives and False Positives' the CNN scored a better Recall but way worse accuracy and precision, from this informaton i choose to go futher with the RNN model.
+From the tables above you can see the RNN model got the best results in 'All Data' for all the testing parameters. For the table with 'Just True Positives and False Positives' the CNN scored a better Recall but way worse accuracy and precision, from this informaton i choose to go futher with the RNN model because the average score of the RNN fits better for our purpose.
+
 ### Visualizing the outcome of the Model
 The results of both models is visualized in the code by plotting the Accuracy and Loss of both the train and test set. Also for both models the Recall and Precision for the test set is plotted, see [CNN](Predictive_Models/1D_CNN_Dataloader.ipynb) and [RNN](Predictive_Models/RNN_Overlap_Dataloader.ipynb). To visualize the results more for both models the confusion matrix was plotted. This showed clearly how the models were preforming. 
 
