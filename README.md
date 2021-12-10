@@ -103,7 +103,7 @@ To solve these two problems i wrote a simple program that would replace all the 
 ### Data Preparation
 
 #### Balancing Dataset
-
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 #### Transforming Dataset
@@ -112,12 +112,12 @@ To Transform the dataset a lowpass filter was fitted to the model. This lowpass 
 The code that i wrote for the differential equation and lowpassfilter can be seen in: [Random Forrest Classifier](Predictive_Models/RandomForrestCLassifier.ipynb). 
 
 ### Data explanation
-The dataset consisted of 2 IMU sensors with both 3 Axis (XYZ), this resulted into a total of 6 features in the dataset. The dataset was expanded with a few proccesed features like frameRotation, a timeLine and frameAngle. In total the dataset consisted of 16 features that could be used for detection specific actions. 
+The sensor dataset consisted of 2 IMU sensors with both 3 Axis (XYZ), this resulted into a total of 6 features in the dataset. The dataset was expanded with a few proccesed features like frameRotation, a timeLine and frameAngle. In total the sensor dataset consisted of 16 features that could be used for detection specific actions. All features had a samplefrequency of 100Hz, this meant that for every second there were 100 datapoint for each feature. 
+
+The Action that correspondent with sensor dataset where tagged by a human using vidoe material. These action and there timestamps where noted in a seperate dataset. 
 
 ### Data visualization
-
-When i got the K-Nearest Neighbor model working there were many false positives. This was because in the dataset of the the wheels project there weren't any good ground truths. This was a problem when i wanted to check the precision of a model, because i didn't know if a false negative was really a false negative. To check if a false negative wasn't a positive, all false negatives of a model where visualized with the following code: [Check False Positives](Check_False_Negatives.pdf). This showed that many of the false negatives of the model were actually true positives. This showed that the dataset of the wheels project needed to be improved, through data collection and preparation.
-
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ## Communication
 
@@ -128,9 +128,9 @@ During the minor i have given multiple internal/external presentations. These pr
 
 #### Learning Lab
 I gave a learning lab during the minor about data preparation for Sensors data, see: [Learning Lab](Presentations/LearningLab.pdf). This Learning lab was focust on teaching the class the importance of data preparation. During the Learning lab i also gave the class a challenge to win a beer, sadly only one person submitted a jupyter notebook. The challengs was to improve the results of a dataset with just data preparation see: [Challenge](Presentations/LearningLab.ipynb)
+
 ### Writing Paper
-
-
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ## Reflection and evaluation
 
