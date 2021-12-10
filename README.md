@@ -89,15 +89,34 @@ The results of both models is visualized in the code by plotting the Accuracy an
 ## Data preproccessing 
 
 ### Data Exploration
+Before i could start with coding i needed to understand the dataset i was going to work with. The dataset of the wheel project consists of sensordata of two IMU sensors on a wheelchair, one on the frame and one on the right wheel. This Sensordata was from a specific player that played a specific match. The action of this player were tagged in a seperate file with the hand of video data. Before i could explore the data, the actions needed to be alligned with the sensordata. This was done by the whole project group. 
+
+To understand this alligned data i have written a visualization code that will visualize all IMU sensorsdata for the tagged wheelchair basketball action like Fast Defencen. see [Detecting Patterns](Data_Visualization/Timestamp_fast_defence.pdf). This visualization code helped me to understand the correlations between specific action like Fast Defence and the output of the IMU sensors. With this information i made a hypothesis that the variables wheelRotationalSpeedX and framRotationSpeedY would work the best to detect Fast defences.
+
+After visualizing the dataset, the features that i found most sutable where used for the training of a K-Nearest Neighbor model to detect sprinting behavior. When fitting the data to the model i ran into a problem. The model didn't have great results because the dataset wasn't balanced. The balance of the dataset was visualized to see how bad it was see: [Balancing](Data_Visualization/Data_Balance.pdf). The dataset was more inbalanced then i thought, with this information i balanced the dataset. After balancing the dataset the results of the model improved.
 
 ### Data Cleansing
+When the group received the dataset, the dataset needed to be cleaned. The dataset had two big problem, the first problem was that the dataset consisted of many NaN values. The second problem was that the dataset had a lot of unneccesary data, for example the match of a specific player had a duration of 45 minutes but the dataset of this player had data for 60 minutes. 
+
+To solve these two problems i wrote a simple program that would replace all the NaN in the dataset with the value 0 and would delete all the data where the player wasn't actively playing. The program that realized this is [Clean Data](Data_Preparation/Clean_Data.ipynb).
 
 ### Data Preparation
 
+#### Balancing Dataset
+
+
+
+#### Transforming Dataset
+To Transform the dataset a lowpass filter was fitted to the model. This lowpass filter filtered out the high frequencies in the dataset. This was helpfull because now the dataset is more smooth and most of the big outliers are removed, this improved the results of our predictive models. After the lowpass filter a differential equation was fitted to the dataset. This was done to identify if a player is accelerating. This was done through a differential equation of the wheelRotatationSpeedX. This resulted in the acceleration of the wheel.
+
+The code that i wrote for the differential equation and lowpassfilter can be seen in: [Random Forrest Classifier](Predictive_Models/RandomForrestCLassifier.ipynb). 
+
 ### Data explanation
+The dataset consisted of 2 IMU sensors with both 3 Axis (XYZ), this resulted into a total of 6 features in the dataset. The dataset was expanded with a few proccesed features like frameRotation, a timeLine and frameAngle. In total the dataset consisted of 16 features that could be used for detection specific actions. 
 
 ### Data visualization
 
+When i got the K-Nearest Neighbor model working there were many false positives. This was because in the dataset of the the wheels project there weren't any good ground truths. This was a problem when i wanted to check the precision of a model, because i didn't know if a false negative was really a false negative. To check if a false negative wasn't a positive, all false negatives of a model where visualized with the following code: [Check False Positives](Check_False_Negatives.pdf). This showed that many of the false negatives of the model were actually true positives. This showed that the dataset of the wheels project needed to be improved, through data collection and preparation.
 
 
 ## Communication
