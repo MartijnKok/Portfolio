@@ -43,6 +43,8 @@ The wheels team got a large time series dataset of multiple gyroscope datapoints
 #### RNN
 When i researched for models that can be used on IMU (gyroscope data) i found a interesting research paper about detection specific motion from IMU data with LSTM (Long Short-Term Memory) and a RNN (Recurrent Neural Network), link: [Research Paper LSTM&RNN](Predictive_Models/sensors-21-01264-v2.pdf). This research paper had a lot in commmen with our project. So i decided that i would give a RNN with LSTM a go to see if the results would be beter then the CNN model. 
 
+#### Conclusion
+
 ### Configuring a Model
 #### CNN
 After deciding that i would use a 1D-CNN model i needed to configure a model. This took a long time because there aren't that many 1D-CNN models online. After trail and error i made a CNN model see link: [CNN](Predictive_Models/1D_CNN_Dataloader.ipynb). This model consist of a multiple convolution and linear layers. The CNN mode is configured to receive tensors that were split into windows of 1 second with a overlap of 0.5 seconds, this was done so the results of could easily be compared to models used by other team members. For every 1 second window the model will decide if there is a sprint or not.
@@ -50,6 +52,7 @@ After deciding that i would use a 1D-CNN model i needed to configure a model. Th
 #### RNN
 The RNN model is a basic RNN model with a hidden layer and a LSTM classifier. This model has the same input as the CNN model so most parts of the CNN code can be used for the RNN model, link: [RNN](Predictive_Models/RNN_Overlap_Dataloader.ipynb). The model was based on a RNN model that J. Vuurens showed during a lecture. 
 
+!!!! REFERENCE TO TRAINING MODEL FOR TUNING THE MODEL!!!!
 
 ### Training a Model
 After the two models were made i trained them with the main dataset of the project. I splitted the dataset into two parts, the train part and test part. The train part was 75% of the data en the test part was 25%. The first time i trained the model i set the epochs on 3000, ofcourse this overfitted the model. To ensure there was no overfitting i visualized the accuracy, loss, recall and precision over the amount of epochs, see: [CNN](Predictive_Models/1D_CNN_Dataloader.ipynb) and [RNN](Predictive_Models/RNN_Overlap_Dataloader.ipynb). After looking at the visualizations i saw the model was overfitting and the learning rate of the model was to high. To fix the overfitting i used a dataloader on both models also i played with the learning rate and the epochs. For the CNN i also tuned the size of the Convolusional layers and the linear layers. I tuned the RNN with different hidden layer sizes. For both model i played around and looked at the results for every change and finaly tunned the model to achieve the highest Recall with a acceptable precision.
@@ -87,6 +90,7 @@ The results of both models is visualized in the code by plotting the Accuracy an
 
 
 ## Data preproccessing 
+!!!!!! STAAT HIER HOE JE DE FALSE NEGATIVES HEBT VERWERKT!!!!
 
 ### Data Exploration
 Before i could start with coding i needed to understand the dataset i was going to work with. The dataset of the wheel project consists of sensordata of two IMU sensors on a wheelchair, one on the frame and one on the right wheel. This Sensordata was from a specific player that played a specific match. The action of this player were tagged in a seperate file with the hand of video data. Before i could explore the data, the actions needed to be alligned with the sensordata. This was done by the whole project group. 
