@@ -47,12 +47,11 @@ When i researched for models that can be used on IMU (gyroscope data) i found a 
 
 ### Configuring a Model
 #### CNN
-After deciding that i would use a 1D-CNN model i needed to configure a model. This took a long time because there aren't that many 1D-CNN models online. After trail and error i made a CNN model see link: [CNN](Predictive_Models/1D_CNN_Dataloader.ipynb). This model consist of a multiple convolution and linear layers. The CNN mode is configured to receive tensors that were split into windows of 1 second with a overlap of 0.5 seconds, this was done so the results of could easily be compared to models used by other team members. For every 1 second window the model will decide if there is a sprint or not.
+After deciding that i would use a 1D-CNN model i needed to configure a model. This took a long time because there aren't that many 1D-CNN models online. After trail and error i made a CNN model see link: [CNN](Predictive_Models/1D_CNN_Dataloader.ipynb). This model consist of a multiple convolution and linear layers. The CNN mode is configured to receive tensors that were split into windows of 1 second with a overlap of 0.5 seconds, this was done so the results of could easily be compared to models used by other team members. For every 1 second window the model will decide if there is a sprint or not. The hyperparameters of this model (like learning reate and linear layer size) were tuned during the training of this model.
 
 #### RNN
-The RNN model is a basic RNN model with a hidden layer and a LSTM classifier. This model has the same input as the CNN model so most parts of the CNN code can be used for the RNN model, link: [RNN](Predictive_Models/RNN_Overlap_Dataloader.ipynb). The model was based on a RNN model that J. Vuurens showed during a lecture. 
+The RNN model is a basic RNN model with a hidden layer and a LSTM classifier. This model has the same input as the CNN model so most parts of the CNN code can be used for the RNN model, link: [RNN](Predictive_Models/RNN_Overlap_Dataloader.ipynb). The model was based on a RNN model that J. Vuurens showed during a lecture. The hyperparameters of this model (like learning reate and hidden layer size) were tuned during the training of this model.
 
-!!!! REFERENCE TO TRAINING MODEL FOR TUNING THE MODEL!!!!
 
 ### Training a Model
 After the two models were made i trained them with the main dataset of the project. I splitted the dataset into two parts, the train part and test part. The train part was 75% of the data en the test part was 25%. The first time i trained the model i set the epochs on 3000, ofcourse this overfitted the model. To ensure there was no overfitting i visualized the accuracy, loss, recall and precision over the amount of epochs, see: [CNN](Predictive_Models/1D_CNN_Dataloader.ipynb) and [RNN](Predictive_Models/RNN_Overlap_Dataloader.ipynb). After looking at the visualizations i saw the model was overfitting and the learning rate of the model was to high. To fix the overfitting i used a dataloader on both models also i played with the learning rate and the epochs. For the CNN i also tuned the size of the Convolusional layers and the linear layers. I tuned the RNN with different hidden layer sizes. For both model i played around and looked at the results for every change and finaly tunned the model to achieve the highest Recall with a acceptable precision.
@@ -90,7 +89,6 @@ The results of both models is visualized in the code by plotting the Accuracy an
 
 
 ## Data preproccessing 
-!!!!!! STAAT HIER HOE JE DE FALSE NEGATIVES HEBT VERWERKT!!!!
 
 ### Data Exploration
 Before i could start with coding i needed to understand the dataset i was going to work with. The dataset of the wheel project consists of sensordata of two IMU sensors on a wheelchair, one on the frame and one on the right wheel. This Sensordata was from a specific player that played a specific match. The action of this player were tagged in a seperate file with the hand of video data. Before i could explore the data, the actions needed to be alligned with the sensordata. This was done by the whole project group. 
@@ -105,10 +103,6 @@ When the group received the dataset, the dataset needed to be cleaned. The datas
 To solve these two problems i wrote a simple program that would replace all the NaN in the dataset with the value 0 and would delete all the data where the player wasn't actively playing. The program that realized this is [Clean Data](Data_Preparation/Clean_Data.ipynb).
 
 ### Data Preparation
-
-#### Balancing Dataset
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
 
 #### Transforming Dataset
 To Transform the dataset a lowpass filter was fitted to the model. This lowpass filter filtered out the high frequencies in the dataset. This was helpfull because now the dataset is more smooth and most of the big outliers are removed, this improved the results of our predictive models. After the lowpass filter a differential equation was fitted to the dataset. This was done to identify if a player is accelerating. This was done through a differential equation of the wheelRotatationSpeedX. This resulted in the acceleration of the wheel.
