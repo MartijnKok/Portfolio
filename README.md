@@ -105,10 +105,12 @@ To solve these two problems i wrote a simple program that would replace all the 
 
 ### Data Preparation
 
-#### Transforming Dataset
-To Transform the dataset a lowpass filter was fitted to the model. This lowpass filter filtered out the high frequencies in the dataset. This was helpfull because now the dataset is more smooth and most of the big outliers are removed, this improved the results of our predictive models. After the lowpass filter a differential equation was fitted to the dataset. This was done to identify if a player is accelerating. This was done through a differential equation of the wheelRotatationSpeedX. This resulted in the acceleration of the wheel.
+#### Transforming Dataset with math
+To Transform the dataset a lowpass filter was fitted to the model. This lowpass filter filtered out the high frequencies in the dataset. This was helpfull because now the dataset is more smooth and most of the big outliers are removed, this improved the results of our predictive models. After the lowpass filter a differential equation was fitted to the dataset. This was done to identify if a player is accelerating. This was done through a differential equation of the wheelRotatationSpeedX. This resulted in the acceleration of the wheel. The code that i wrote for the differential equation and lowpassfilter can be seen in: [Random Forrest Classifier](Predictive_Models/RandomForrestCLassifier.ipynb). 
 
-The code that i wrote for the differential equation and lowpassfilter can be seen in: [Random Forrest Classifier](Predictive_Models/RandomForrestCLassifier.ipynb). 
+#### Transforming Dataset through comparison of false positives (FP)
+
+[Comparison of FP](
 
 ### Data explanation
 The sensor dataset consisted of 2 IMU sensors with both 3 Axis (XYZ), this resulted into a total of 6 features in the dataset. The dataset was expanded with a few proccesed features like frameRotation, a timeLine and frameAngle. In total the sensor dataset consisted of 16 features that could be used for detection specific actions. All features had a samplefrequency of 100Hz, this meant that for every second there were 100 datapoint for each feature. 
