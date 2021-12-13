@@ -110,7 +110,7 @@ To Transform the dataset a lowpass filter was fitted to the model. This lowpass 
 
 #### Transforming Dataset through comparison of false positives (FP)
 
-[Comparison of FP](
+[Comparison of FP](Data_Preparation/Compare_Results_Models.ipynb)
 
 ### Data explanation
 The sensor dataset consisted of 2 IMU sensors with both 3 Axis (XYZ), this resulted into a total of 6 features in the dataset. The dataset was expanded with a few proccesed features like frameRotation, a timeLine and frameAngle. In total the sensor dataset consisted of 16 features that could be used for detection specific actions. All features had a samplefrequency of 100Hz, this meant that for every second there were 100 datapoint for each feature. 
