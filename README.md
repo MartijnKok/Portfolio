@@ -44,6 +44,7 @@ The wheels team got a large time series dataset of multiple gyroscope datapoints
 When i researched for models that can be used on IMU (gyroscope data) i found a interesting research paper about detection specific motion from IMU data with LSTM (Long Short-Term Memory) and a RNN (Recurrent Neural Network), link: [Research Paper LSTM&RNN](Predictive_Models/sensors-21-01264-v2.pdf). This research paper had a lot in commmen with our project. So i decided that i would give a RNN with LSTM a go to see if the results would be beter then the CNN model. 
 
 #### Conclusion
+After researching the 1D-CNN and the RNN, i found out that both models would accept a timeseries of sensordata specifically gyroscope data. Therefore the models could be used on my dataset. Both models were also used to classify human movements through gyroscope data. This has a strong resembles with the classification i want to do for the project. To see which model will preform best, i made both models and compared the recall, precision and accuracy.
 
 ### Configuring a Model
 #### CNN
