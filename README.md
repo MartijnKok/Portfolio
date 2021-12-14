@@ -132,7 +132,7 @@ During the minor i have given multiple internal/external presentations. These pr
 I gave a learning lab during the minor about data preparation for Sensors data, see: [Learning Lab](Presentations/LearningLab.pdf). This Learning lab was focust on teaching the class the importance of data preparation. During the Learning lab i also gave the class a challenge to win a beer, sadly only one person submitted a jupyter notebook. The challengs was to improve the results of a dataset with just data preparation see: [Challenge](Presentations/LearningLab.ipynb)
 
 ### Writing Paper
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+For the research paper i have written particulaire parts like the part about Neural Network and some parts of validation. Also i helped a team member with question about the content of the researchpaper for example information about validation and data preperation.  
 
 ## Reflection and evaluation
 
