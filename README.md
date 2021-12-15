@@ -143,8 +143,8 @@ For the research paper i have written particulaire parts like the part about Neu
 | Situation | During the minor i was part of the Wheels project group. This project was about how you can use IMU data to classify specific wheelchair basketball movements.  |
 | Task | During the project i wanted to make a good contribution to my project team and didn't want to lack in work. Futhermore i wanted to share my knowledge about specific subject i learned from school to the rest of my project team |
 | Action | In the project i started with learning the basics of machine learning through a  online programming course named Datacamp. When this was finished i began with focussing on what the possibilities were with the given dataset from the problem owner and writing code to improve the given dataset. When this was done is started to dive into predictive models like neural networks through research and trial and error, to understand how it all worked and how i could be implemented into my project.  |
-| Resuls | I finished the online programming course Datacamp and wrote code that worked pretty well to fix a few issues with the dataset like cleaning and finding more ground truths. I finished multiple Neural Network models and implementend many features like dataloaders and datacleaners.   |
-| Reflection| My contribution to this project was really good, because i did a big part of the coding for this project and i helped many of my teammates with fixing their parts of the project. Furthermore i kept myself connected to the project and |
+| Results | I finished the online programming course Datacamp and wrote code that worked pretty well to fix a few issues with the dataset like cleaning and finding more ground truths. I finished multiple Neural Network models and implementend many features like dataloaders and datacleaners. !!!!!!!!!!!!!!!!!!!!!!!  |
+| Reflection| My contribution to this project was really good, because i did a big part of the coding for this project and i helped many of my teammates with fixing their parts of the project. Furthermore i kept myself connected to the project and !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!|
 
 ### Reflection on own learning objectives
 *STARR*
@@ -153,7 +153,7 @@ For the research paper i have written particulaire parts like the part about Neu
 | Situation | |
 | Task | During the project i wanted to expand my knowledge about machine learning and learn about the possibilities you have with data. Also i wanted to work with student from different backgrounds then me and found out how they handle a project like this.  |
 | Action | In the project i started with learning the basics of machine learning through a  online programming course named Datacamp. When this was finished i began with focussing on what the possibilities were with the given dataset from the problem owner and writing code to improve the given dataset. When this was done is started to dive into predictive models like neural networks through research and trial and error, to understand how it all worked.  |
-| Resuls |   |
+| Results |   |
 | Reflection| I learned a lot from the whole project and my own contribution, it was a great experience. The biggest thing i learned was how many possibilities there are with data and how you can implement different models like 1D-CNN en RNN. Futhermore i learned how you can tune models and what is important to do before you start working with big datasets like cleaning/preparing your data and understanding your data.|
 
 ### Evaluation on the group project as a whole
@@ -163,6 +163,6 @@ For the research paper i have written particulaire parts like the part about Neu
 | Situation |  |
 | Task |  |
 | Action |  |
-| Resuls |  |
+| Results |  |
 | Reflection| |
 
