@@ -83,8 +83,17 @@ The results of both models is visualized in the code by plotting the Accuracy an
 ## Domain knowledge
 
 ### Introduction of the subject field
+Sensor data 
+IMU
+Wheelchair basketball
+
 
 ### Literature research
+Wheelchair athletes and tracking devices https://dl.acm.org/doi/pdf/10.1145/2700648.2809845 
+How to use NN https://curiousily.com/posts/build-your-first-neural-network-with-pytorch/
+CNN for activity classification https://www.sciencedirect.com/science/article/pii/S2666307421000140
+RNN for activity classification https://www.mdpi.com/1424-8220/21/4/1264/htm, https://www.scitepress.org/Papers/2018/65852/65852.pdf
+
 
 ### Explanation of the Terminology, jargon and definitions
 
