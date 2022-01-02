@@ -83,17 +83,21 @@ The results of both models is visualized in the code by plotting the Accuracy an
 ## Domain knowledge
 
 ### Introduction of the subject field
+This project 
 Sensor data 
 IMU
 Wheelchair basketball
 
 
 ### Literature research
-Wheelchair athletes and tracking devices https://dl.acm.org/doi/pdf/10.1145/2700648.2809845 
-How to use NN https://curiousily.com/posts/build-your-first-neural-network-with-pytorch/
-CNN for activity classification https://www.sciencedirect.com/science/article/pii/S2666307421000140
+Before I could begin with making machine learning models for my project I needed to research literature to know what alreaby has been done for the problem my project faces. The first step was to understand what exactly the problem of my project was. My project was to use machine learning to recognize specific wheelchar basketball movements from IMU recordings. While researching i found a researchpaper that goes deeper into the problem of my project (https://dl.acm.org/doi/pdf/10.1145/2700648.2809845), this research paper explains the problems that wheelchair athletes have with tracking their activities in sports like basketball, rugby and tennis. This researchpaper made me understand the problem of my project better.
+
+Now I knew what the exact problem is of my project, I wanted to know if there are any people that already tried to solve this problem. I found a few research papers that already tried to recognize specific movements like sitting and walking with the help of IMU recordings. But all of these research papers were for people that weren't in a wheelchair, but the approach of these researches could also be used for my project. A few examples of these research papers are: https://www.sciencedirect.com/science/article/pii/S2666307421000140, https://www.scitepress.org/Papers/2018/65852/65852.pdf, https://www.mdpi.com/1424-8220/21/4/1264/htm and http://www.ijpmbs.com/uploadfile/2017/1227/20171227050020234.pdf.
+
+All of above research papers showed me that different kinds of (NN) neural networks are commonly used to recognize activities from IMU data. But i had no idee how a neural network worked, to understand neural network I started to research how you can make a NN from scratch. While researching I found a great tutorial that showed me how you can make a NN and what everything meant https://curiousily.com/posts/build-your-first-neural-network-with-pytorch/. 
+
 What is a 1D-CNN https://towardsdatascience.com/understanding-1d-and-3d-convolution-neural-network-keras-9d8f76e29610
-RNN for activity classification https://www.mdpi.com/1424-8220/21/4/1264/htm, https://www.scitepress.org/Papers/2018/65852/65852.pdf, http://www.ijpmbs.com/uploadfile/2017/1227/20171227050020234.pdf
+
 
 
 
