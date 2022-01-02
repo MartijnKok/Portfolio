@@ -97,8 +97,29 @@ Now I knew what the exact problem is of my project, I wanted to know if there ar
 All of above research papers showed me that different kinds of (NN) neural networks are commonly used to recognize activities from IMU data. But i had no idee how a neural network worked, to understand neural network I started to research how you can make a NN from scratch. While researching I found a great tutorial that showed me how you can make a NN and what everything meant https://curiousily.com/posts/build-your-first-neural-network-with-pytorch/. This tutorial helped me to make a basic NN and understand how it is made. But a basic NN neural network wasn't great for recognizing activities, most people used a 1D-CNN (Convolutional Neural Network) or RNN (Recurrent Neural Network) model. Theser NN networks were more complicated then a simple NN network. To understand how these models worked I researched into simple visualizations of these models https://towardsdatascience.com/understanding-1d-and-3d-convolution-neural-network-keras-9d8f76e29610, https://aditi-mittal.medium.com/understanding-rnn-and-lstm-f7cdf6dfc14e. These visualization helped me to understand how the models worked and know I could implement these models. For the 1D-CNN I researched a lot because there weren't many tutorial about how you can implement a 1D-CNN model with Pytorch, but i found a tutorial that helped me to make a basic 1D-CNN, https://wandb.ai/authors/ayusht/reports/Implementing-and-Tracking-the-Performance-of-a-CNN-in-Pytorch-An-Example--VmlldzoxNjEyMDU. For the RNN I used a example from a lecture that was given by Jeroen Vuurens
 
 
-
 ### Explanation of the Terminology, jargon and definitions
+* IMU
+* Classification/Regression
+
+* Pre proccesing 
+  * Balancing
+  
+* NN
+  * Epochs
+  * Learningrate
+  * linear layers
+  * Overfitting
+  * Underfitting
+  
+* CNN
+  * Tensors
+  
+* RNN
+  * LSTM
+  
+* Evaluation
+  * Cross Validation/ N-fold Cross Validation 
+  * Confusion Matrix
 
 
 
