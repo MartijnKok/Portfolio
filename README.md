@@ -128,7 +128,8 @@ All of above research papers showed me that different kinds of (NN) neural netwo
 * **Different kinds of NN**, There are many different kinds of NN but during the minor we only spoke about two differnt models:
   * **CNN**, A CNN is a NN with a convolutional layer. This convolutional layer changes the input through a kernel. This kernel scans the data and outputs a modified shape of the input. This allows a NN to better indentify patterns in for example images.
   * **RNN**, A RNN is a Recurrent Neurel Network. This network will also take the previous data into consideration. A great example is seen this image.
-![Confusion matrix](./pictures/afbeelding_2022-01-02_133838.png)
+
+![Confusion matrix](./pictures/Image.png)
 * **Evaluation**, After you made your model you want to know if it work or not. This can be done by evaluation. There are a few thing you need to know before you can evaluate a model:
   * **Evaluation models**, During the minor we mostly used two different kinds of evaluation methodes:
     * **Cross Validation**, This evaluation methode will split the dataset into two parts, a training and validation set. The training set is used to train the model. When the training is done the model is validated with the validation set.
