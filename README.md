@@ -118,22 +118,23 @@ All of above research papers showed me that different kinds of (NN) neural netwo
   * **Balancing**, Balancing is a important step in pre proccesing. Balacing is used by classification models. When a dataset have 300 values that classify as 1 and 50 values that classify as 0, the model will struggle with classifying the dataset correctly. This will happen because the model will get a preference to gamble that something 1 because the chance is higher that something is 1. To prevent this the dataset can be balanced, this means the amount of 1 values will be the same as 0.
   * **Outliers**, There are always outliers in a dataset. Outliers are values that aren't logical, for example when a dataset consist of the temperature of everyday in the year and one day it is 100 degrees celcius. This is what we call a outliers. 
   
-* NN, A totaly different kind of machine learning is a Neural Network. A simple explaination of a NN is that a NN is a model works kinda like a human brain. The NN has nodes (synapses), these nodes have a input and a output. The node will get a input and will do a mathematical operation and sent that to the output. When you have multiple nodes you can let the NN do some hard mathematical functions and it will learn just a a human learns. How to train a NN can be explained with a few defenitions.
-  * Epochs, when you have made a NN you need to train it just like a human needs to learn. You can train a model with at dataset. The amount of epochs you train a model over is the amount of times the model will train with a dataset. For example when you have 1 epoch, the model will see the dataset one time. But when you have 100 epochs the model will see the dataset 100 times. Just as a human, the NN will become smarter everytime it sees the dataset.
-  * Learning rate, for the NN you can set a Learning rate. The learning rate decides how much a NN will learn every epoch. When you set the learning rate low the NN will learn really slow and needs many epochs to learn. When you set the learning rate high the model will learn fast every epoch but won't reach a optimum.
-  * linear layers, The amount of nodes a NN has is determined by the linear layers. The linear layers of a model decide how complex the model will be. When you increase the amount of linear layers the model will be able to detect more complex things but will take longer to train. When you lower the linear layers the model will train faster but won't be able to detect really complex things.
-  * Overfitting, When you train a NN you can increase the epochs of the model to a really big number so that the NN is as smart as possible. But when you do this you increase the chance that the NN will be overfitting. When a NN overfits it will precisly learn the dataset and will be able to predict everything if it is exactly as the dataset, but when the NN sees something different it won't know what to do. 
-  * Underfitting, To prevent you can set the epoch really low but this will underfit the model. This means the model will never reach a optimun while learning. This can also happen when you set the learning rate to high.
+* **NN**, A totaly different kind of machine learning is a Neural Network. A simple explaination of a NN is that a NN is a model works kinda like a human brain. The NN has nodes (synapses), these nodes have a input and a output. The node will get a input and will do a mathematical operation and sent that to the output. When you have multiple nodes you can let the NN do some hard mathematical functions and it will learn just a a human learns. How to train a NN can be explained with a few defenitions.
+  * **Epochs**, when you have made a NN you need to train it just like a human needs to learn. You can train a model with at dataset. The amount of epochs you train a model over is the amount of times the model will train with a dataset. For example when you have 1 epoch, the model will see the dataset one time. But when you have 100 epochs the model will see the dataset 100 times. Just as a human, the NN will become smarter everytime it sees the dataset.
+  * **Learning rate**, for the NN you can set a Learning rate. The learning rate decides how much a NN will learn every epoch. When you set the learning rate low the NN will learn really slow and needs many epochs to learn. When you set the learning rate high the model will learn fast every epoch but won't reach a optimum.
+  * **Linear layers**, The amount of nodes a NN has is determined by the linear layers. The linear layers of a model decide how complex the model will be. When you increase the amount of linear layers the model will be able to detect more complex things but will take longer to train. When you lower the linear layers the model will train faster but won't be able to detect really complex things.
+  * **Overfitting**, When you train a NN you can increase the epochs of the model to a really big number so that the NN is as smart as possible. But when you do this you increase the chance that the NN will be overfitting. When a NN overfits it will precisly learn the dataset and will be able to predict everything if it is exactly as the dataset, but when the NN sees something different it won't know what to do. 
+  * **Underfitting**, To prevent you can set the epoch really low but this will underfit the model. This means the model will never reach a optimun while learning. This can also happen when you set the learning rate to high.
   
-* CNN
-  * Tensors
+* **Different kinds of NN**, There are many different kinds of NN but during the minor we only spoke about two differnt models:
+  * **CNN**,
+  * **RNN**, 
   
-* RNN
-  * LSTM
-  
-* Evaluation
-  * Cross Validation/ N-fold Cross Validation 
-  * Confusion Matrix
+* **Evaluation**, After you made your model you want to know if it work or not. This can be done by evaluation. There are a few thing you need to know before you can evaluate a model:
+  * **Evaluation models**, During the minor we mostly used two different kinds of evaluation methodes:
+    * **Cross Validation**, This evaluation methode will split the dataset into two parts, a training and validation set. The training set is used to train the model. When the training is done the model is validated with the validation set.
+    * **N-fold Cross Validation**, This evaluation methode works the same as Cross Validation but for every experiment you do with the model the training and validation set are being mixed so that the training set and validation set are not the same as before.
+  * **Confusion Matrix**, When you evaluate a classification model you will get a confusion matrix. This matrix consist of the amount of correct and incorrect predictions. As seen in image ![Confusion matrix](./pictures/image.png)
+ 
 
 
 
