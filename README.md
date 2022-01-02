@@ -133,7 +133,12 @@ All of above research papers showed me that different kinds of (NN) neural netwo
   * **Evaluation models**, During the minor we mostly used two different kinds of evaluation methodes:
     * **Cross Validation**, This evaluation methode will split the dataset into two parts, a training and validation set. The training set is used to train the model. When the training is done the model is validated with the validation set.
     * **N-fold Cross Validation**, This evaluation methode works the same as Cross Validation but for every experiment you do with the model the training and validation set are being mixed so that the training set and validation set are not the same as before.
-  * **Confusion Matrix**, When you evaluate a classification model you will get a confusion matrix. This matrix consist of the amount of correct and incorrect predictions. As seen in image ![Confusion matrix](./pictures/image.png)
+  * **Confusion Matrix**, When you evaluate a classification model you will get a confusion matrix. This matrix consist of the amount of correct and incorrect predictions. As seen in the image below. From this matrix a few things can be calculated:
+    * Accuracy, The Accuracy is the amount of correct prediction devided by the amount of incorrect predictions.
+    * Precision, The Precision is amount of 
+    * Recall
+
+![Confusion matrix](./pictures/downloads.png)
  
 
 
