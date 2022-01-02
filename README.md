@@ -98,18 +98,20 @@ All of above research papers showed me that different kinds of (NN) neural netwo
 
 
 ### Explanation of the Terminology, jargon and definitions
-* IMU, During my project there was a lot about IMU's (Inertial Measuring unit). A IMU is a sensor that is able to record accelerations in 3 Axis (XYZ), With these measurements you can see small movements. 
+* **Datasets**, Before starting with something that look like machine learning you need to understand what a dataset is. A dataset is a file with data inside. A example is a file with the temperature of every day in the year. This file will have 2 features and 365 rows. The features are the day of the year and the temperature. 
 
-* Classification/Regression, In machine learning your have multiple kinds of machine learning. During this minor i mainly focussed on two kind of machine learning, Classification and Regression.
-  * Classification, The first kind of machine learning is Classification, classification is a kind of machine learning that can classify data. For example when you have 20   p   pictures of dogs and there are 4 different breeds, a classification model will be able to predict which of the 4 breed each dog is. 
-  * Regression, When you don't just want to classify something but you want to predict a specific value, you can use regression. A regression model is able to predict exact values, for example how much the sales of a company will be next year. 
+  * **IMU**, During my project there was a lot about IMU's (Inertial Measuring unit). A IMU is a sensor that is able to record accelerations in 3 Axis (XYZ), With these measurements you can see small movements. 
 
-* Pre proccesing, You can't just get a dataset and directly make a machine learning model and expect that you get great results. To make sure your machine learning model gets the best chance, you need to pre-proces your data. During this you can do a few things.
-  * Cleaning, Many dataset have some missing data or data you don't wnat, for example when you have a dataset of the income of a shop for every day in the week but the income of some theys are missing and the shop is closed 2 day in the week. The missing data will have a NaN (Not a Number) value. When a machine learning model sees a NaN value it won't work. To fix this you can clean your data by replacing the NaN with the mean value of all the incomes. The data that you don't want like the 2 days in the week that the shop is closed you can remove. This is also part of cleaning your data. 
-  * Numeric
-  * Scaling  
-  * Balancing
-  * Outliers
+* **Classification/Regression**, In machine learning your have multiple kinds of machine learning. During this minor i mainly focussed on two kind of machine learning, Classification and Regression.
+  * **Classification**, The first kind of machine learning is Classification, classification is a kind of machine learning that can classify data. For example when you have 20   p   pictures of dogs and there are 4 different breeds, a classification model will be able to predict which of the 4 breed each dog is. 
+  * **Regression**, When you don't just want to classify something but you want to predict a specific value, you can use regression. A regression model is able to predict exact values, for example how much the sales of a company will be next year. 
+
+* **Pre proccesing**, You can't just get a dataset and directly make a machine learning model and expect that you get great results. To make sure your machine learning model gets the best chance, you need to pre-proces your data. During this you can do a few things.
+  * **Cleaning**, Many dataset have some missing data or data you don't wnat, for example when you have a dataset of the income of a shop for every day in the week but the income of some theys are missing and the shop is closed 2 day in the week. The missing data will have a NaN (Not a Number) value. When a machine learning model sees a NaN value it won't work. To fix this you can clean your data by replacing the NaN with the mean value of all the incomes. The data that you don't want like the 2 days in the week that the shop is closed you can remove. This is also part of cleaning your data. 
+  * **Numeric**, Some dataset don't just have numbers but also have words, like the month of the year. A machine learning model will crash if it sees this. To fix this the non numeric numbers can be replaced, like the months of the year can be replaced with numbers from 1-12.
+  * **Scaling**, When a dataset has multiple features but the range of one feature is 0-1 and the other feature is 0-100000 the model will not preform as good as when the features are scaled. Scaling of the features means that the range all features is made the same.
+  * **Balancing**, Balancing is a important step in pre proccesing. Balacing is used by classification models. When a dataset have 300 values that classify as 1 and 50 values that classify as 0, the model will struggle with classifying the dataset correctly. This will happen because the model will get a preference to gamble that something 1 because the chance is higher that something is 1. To prevent this the dataset can be balanced, this means the amount of 1 values will be the same as 0.
+  * **Outliers**, There are always outliers in a dataset. Outliers are values that aren't logical, for example when a dataset consist of the temperature of everyday in the year and one day it is 100 degrees celcius. This is what we call a outliers. 
   
 * NN
   * Epochs
