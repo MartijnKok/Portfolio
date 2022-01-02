@@ -100,9 +100,9 @@ All of above research papers showed me that different kinds of (NN) neural netwo
 ### Explanation of the Terminology, jargon and definitions
 * IMU, During my project there was a lot about IMU's (Inertial Measuring unit). A IMU is a sensor that is able to record accelerations in 3 Axis (XYZ), With these measurements you can see small movements. 
 
-* Classification/Regression, In machine learning your have multiple kinds of machine learning. During this minor i mainly focussed on two kind of machine learning, Classification and Regression. 
- * Classification, The first kind of machine learning is Classification, classification is a kind of machine learning that can classify data. For example when you have 20 pictures of dogs and there are 4 different breeds, a classification model will be able to predict which of the 4 breed each dog is. 
- * Regression, When you don't just want to classify something but you want to predict a specific value, you can use regression. A regression model is able to predict exact values, for example how much the sales of a company will be next year. 
+* Classification/Regression, In machine learning your have multiple kinds of machine learning. During this minor i mainly focussed on two kind of machine learning, Classification and Regression.
+  * Classification, The first kind of machine learning is Classification, classification is a kind of machine learning that can classify data. For example when you have 20   p   pictures of dogs and there are 4 different breeds, a classification model will be able to predict which of the 4 breed each dog is. 
+  * Regression, When you don't just want to classify something but you want to predict a specific value, you can use regression. A regression model is able to predict exact values, for example how much the sales of a company will be next year. 
 
 * Pre proccesing 
   * Balancing
