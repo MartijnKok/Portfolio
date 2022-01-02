@@ -104,8 +104,12 @@ All of above research papers showed me that different kinds of (NN) neural netwo
 
 * **Classification/Regression**, In machine learning your have multiple kinds of machine learning. During this minor i mainly focussed on two kind of machine learning, Classification and Regression.
   * **Classification**, The first kind of machine learning is Classification, classification is a kind of machine learning that can classify data. For example when you have 20   p   pictures of dogs and there are 4 different breeds, a classification model will be able to predict which of the 4 breed each dog is. A few examples of classification models are:
-    * dog    
-  * **Regression**, When you don't just want to classify something but you want to predict a specific value, you can use regression. A regression model is able to predict exact values, for example how much the sales of a company will be next year. 
+    * K-Nearest Neighbors    
+    * Support Vector Machine
+    * Decision Tree
+  * **Regression**, When you don't just want to classify something but you want to predict a specific value, you can use regression. A regression model is able to predict exact values, for example how much the sales of a company will be next year. A few examples of regression models are:
+    * Lasso
+    * Ridge
 
 * **Pre proccesing**, You can't just get a dataset and directly make a machine learning model and expect that you get great results. To make sure your machine learning model gets the best chance, you need to pre-proces your data. During this you can do a few things.
   * **Cleaning**, Many dataset have some missing data or data you don't wnat, for example when you have a dataset of the income of a shop for every day in the week but the income of some theys are missing and the shop is closed 2 day in the week. The missing data will have a NaN (Not a Number) value. When a machine learning model sees a NaN value it won't work. To fix this you can clean your data by replacing the NaN with the mean value of all the incomes. The data that you don't want like the 2 days in the week that the shop is closed you can remove. This is also part of cleaning your data. 
