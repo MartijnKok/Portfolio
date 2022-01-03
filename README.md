@@ -83,12 +83,7 @@ The results of both models is visualized in the code by plotting the Accuracy an
 ## Domain knowledge
 
 ### Introduction of the subject field
-In the 21 century data has become one of the most valued items on the planet. The two biggest companies in the world (Google and Facebook) are masters in using data to make money. For many people data is just a list of numbers and you can only see what people have done. But in this minor (Applied Data Science) I learned that data is so much more then just numbers. Applied data science is about using data to predict what is going te be next and to recognize patterns in data and using data to improve insight in your life. At the minor I started a project were i used machine learning to recognize activities from wheelchair basketball players.
-
-This project 
-Sensor data 
-IMU
-Wheelchair basketball
+In the 21 century data has become one of the most valued items on the planet. The two biggest companies in the world (Google and Facebook) are masters in using data to make money. For many people data is just a list of numbers and you can only see what people have done. But in this minor (Applied Data Science) I learned that data is so much more then just numbers. Applied data science is about using data to predict what is going te be next and to recognize patterns in data and using data to improve insight in all atributes in your life. At the minor I started a project were I used machine learning to recognize activities from wheelchair basketball players.
 
 
 ### Literature research
