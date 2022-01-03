@@ -19,7 +19,7 @@ The main coding language in this minor is python. To get familiar with this codi
 After finishing 100% of the assigned datacamp courses, i have learned a lot about machine learning and python. Through Datacamp i improved my knowledge about how to use python with lage datasets and improve these datasets for machine learning. Futhermore datacamp tought me what machine learning is and how you can implement different models like KNearestNeighbor, Linear Regression and DecisionTree with python. 
 My process of Datacamp can be seen through this link: [Datacamp progress](Datacamp/Assignments-DataCampLearn.pdf), [Datacamp proof](Datacamp/MartijnKok_DataCampProfile_Overview.pdf)
 
-
+ 
 
 
 ## Research project
@@ -31,7 +31,7 @@ My process of Datacamp can be seen through this link: [Datacamp progress](Dataca
 ### Conclusions
 
 ### Planning
-
+During the whole project scrum (in Azure devops) see https://dev.azure.com/Wheeeeeeeeeeeeeeels/wheels/_boards/board/t/wheels%20Team/Stories_m, was used to plan our project. Everyday at 9:30 the whole group had a standup meeting where we said what we did the day before and what we were going to do that day. This kept the whole team updated on what everybody was doing and how far everybody was with their part. Every 2 weeks the whole group did a retrospective and a planned the next sprint of two weeks. For the retrospective we discussed what we wanted to keep/remove/improve in our project, this helped us to improve how we worked in the project. During the sprint planning we made all user stories together and used scrum poker to determine how much work a specific user story was. This was done because the workload in the beginning project wasn't equally divided. 
 
 
 ## Predictive Analytics
