@@ -25,7 +25,9 @@ My process of Datacamp can be seen through this link: [Datacamp progress](Dataca
 ## Research project
 
 ### Task definition
+A lot of sportsman use fitness trackers now a days to track their movements during all different kind of sports. A few examples of sports where trackers are used are: rugby, athletics and mountainbiking. In these sports the fitness trackers help the sportsmans to improve insight on their preformances. But all of the avalaible fitness trackers are specificly made for non-wheelschair athelets. These trackers can be used in wheelchair sports but won't give the wheelchair athelete a good picture of their preformance because many fitness trackers are focussed on steps but as one wheelchair athlete mentioned "But, I don't take steps". Maybe machine learning in combination with IMU's can help wheelchair athletes get more insight in their preformances. This is precisly where our project is focussed on. 
 
+Our project is a little bit more specific, we want to recognize wheelchair basketball activies with machine learning through IMU recordings. 
 
 ### Evaluation
 
@@ -34,7 +36,7 @@ My process of Datacamp can be seen through this link: [Datacamp progress](Dataca
 
 
 ### Planning
-During the whole project scrum (in Azure devops) see https://dev.azure.com/Wheeeeeeeeeeeeeeels/wheels/_boards/board/t/wheels%20Team/Stories_m_, was used to plan our project. Everyday at 9:30 the whole group had a standup meeting where we said what we did the day before and what we were going to do that day. This kept the whole team updated on what everybody was doing and how far everybody was with their part. Every 2 weeks the whole group did a retrospective and a planned the next sprint of two weeks. For the retrospective we discussed what we wanted to keep/remove/improve in our project, this helped us to improve how we worked in the project. During the sprint planning we made all user stories together and used scrum poker to determine how much work a specific user story was. This was done because the workload in the beginning project wasn't equally divided.
+During the whole project scrum (in Azure devops) see https://dev.azure.com/Wheeeeeeeeeeeeeeels/wheels/_boards/board/t/wheels%20Team/Stories_m_, was used to plan our project. Everyday at 9:30 the whole group had a standup meeting where we said what we did the day before and what we were going to do that day. This kept the whole team updated on what everybody was doing and how far everybody was with their part. Every 2 weeks the whole group did a retrospective and a planned the next sprint of two weeks. For the retrospective we discussed what we wanted to keep/remove/improve in our project, this helped us to improve how we worked in the project. During the sprint planning we made all user stories together and used scrum poker to determine how much work a specific user story was. This was done because the workload in the beginning project wasn't equally divided. For planning the internal and external presentations we tried to give everybody the same workload, so that everybody did atleast 2 presentations.
 
 
 ## Predictive Analytics
