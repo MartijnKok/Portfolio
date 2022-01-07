@@ -203,7 +203,7 @@ During the minor I have given multiple internal/external presentations. These pr
 I gave a learning lab during the minor about data preparation for Sensor’s data, see: [Learning Lab](Presentations/LearningLab.pdf). This Learning lab was focussed on teaching the class the importance of data preparation. During the Learning lab I also gave the class a challenge to win a beer, sadly only one person submitted a jupyter notebook. The challenge was to improve the results of a dataset with just data preparation see: [Challenge](Presentations/LearningLab.ipynb).
 
 ### Writing Paper
-For the research paper I have written particularise parts like the part about recurrent neural networks, validation, and results, see . Also, I helped a team member with question about the content of the research paper for example information about validation and data preparation. Furthermore, I worked together with my whole team to improve the paper by peer reviewing each others work multiple times. I was also responsible for the layout of the whole paper; this included the references to images and literature. 
+For the research paper I have written particularise parts like the part about recurrent neural networks, validation, and results, see [Research paper](documents/Research_Paper_Project_Wheels_V1.pdf). Also, I helped a team member with question about the content of the research paper for example information about validation and data preparation. Furthermore, I worked together with my whole team to improve the paper by peer reviewing each others work multiple times. I was also responsible for the layout of the whole paper; this included the references to images and literature. 
 
 ## Reflection and evaluation
 
